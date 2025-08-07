@@ -181,7 +181,8 @@ fun GalleryPage(navController: NavController) {
                                         if (selectionMode.value) {
                                             // Toggle selection
                                             if (selectedItems.contains(uri)) {
-                                                selectedItems.remove(uri)
+                                                //selectedItems.remove(uri)
+                                                previewUri.value = uri // Open preview
                                             } else {
                                                 selectedItems.add(uri)
                                             }
@@ -196,15 +197,26 @@ fun GalleryPage(navController: NavController) {
                                     },
                                     onLongClick = {
                                         // Long press to select even if not in selection mode
-                                        // If selection mode is OFF, enable it
+                                        // If selection mode is off `, enable it
                                         if (!selectionMode.value) {
                                             selectionMode.value = true  // Activates selection mode
                                         }
-                                        // If the long-pressed item is NOT already selected, add it to the selected list
-                                        if (!selectedItems.contains(uri)) {
-                                            selectedItems.add(uri) // Adds the current item's URI to the list of selected items
+//                                        // If the long-pressed item is NOT already selected, add it to the selected list
+//                                        if (!selectedItems.contains(uri)) {
+//                                            selectedItems.add(uri) // Adds the current item's URI to the list of selected items
+//                                        }
+
+                                        // Toggle selection:
+                                        if (selectedItems.contains(uri)) {
+                                            // If already selected, unselect it
+                                            selectedItems.remove(uri)
+                                        } else {
+                                            // If not selected, add it
+                                            selectedItems.add(uri)
                                         }
-                                    }
+
+                                    },
+
                                 )
                         ) {
 
