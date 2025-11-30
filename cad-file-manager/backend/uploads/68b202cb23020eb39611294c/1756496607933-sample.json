@@ -1,0 +1,8 @@
+{
+  "spools": 7,
+  "welds": 12,
+  "materials": {
+    "CS": 20,
+    "SS": 6
+  }
+}
