@@ -1,37 +1,73 @@
-## Complete Intro to React, v9 Course
+Project Structure
 
-This is a companion repository for the [Complete Intro to React, v9][fem] course on Frontend Masters.
-[![Frontend Masters](https://static.frontendmasters.com/assets/brand/logos/full.png)][fem]
+FRONTEND/
+│
+├── api/ # Backend (Node + Express)
+│ ├── server.js # API server
+│ ├── pizza.sqlite # SQLite database
+│ └── package.json
+│
+├── dominos/ # Frontend (React)
+│ ├── src/
+│ │ ├── routes/ # Route-based pages (lazy loaded)
+│ │ ├── components/ # UI components (Pizza, Cart, Modal, etc.)
+│ │ ├── contexts.js # Global state management
+│ │ └── App.jsx
+│ └── package.json
 
-## About this Repository
+Features
+• 🍕 Browse available pizzas
+• ⭐ Pizza of the Day feature
+• 🛒 Add items to cart and place orders
+• 📜 View past orders
+• ⚡ Fast client-side routing with lazy loading
+• 🗄️ Persistent storage using SQLite
+• 🔗 REST API backend
 
-Every step of the project built throughout the course will have a folder that will be a snapshot of the current state of the project. The naming format will be `XX-<name of the lesson>` so you can get a rough idea of order and which lesson the step is coming from. In each snapshot you'll have to run `npm install` again since they are another whole copy of the project.
+Tech Stack
 
-## Setup Instructions
+Frontend
+• React
+• React Router
+• Context API
+• Vite
 
-We recommend using `Node.js version 20` with this course. The project will be built from scratch so most of the folders in this repo are just for reference. Later in the course, the `api` directory will be used to simulate an API server. To get set up, clone the repository:
+Backend
+• Node.js
+• Express
+• SQLite
 
-```bash
-git clone https://github.com/btholt/citr-v9-project.git
-```
+Setup Instructions
 
-To use the version of node this course was built with:
+Clone the repository
 
-- with [fnm](https://github.com/Schniz/fnm), `fnm use --install-if-missing`
-- with [nvm](https://github.com/nvm-sh/nvm), `nvm install`
+git clone <your-repo-url>
+cd FRONTEND
 
-## Issues and Pull Requests
+Run the Backend (API)
 
-Please file issues and open pull requests on [the course website repo][repo]. Feel free to open pull requests here, but the issues should go in the other repo.
+cd api
+npm install
+node server.js
 
-## License
+Run the Frontend (React App)
 
-The content of this workshop is licensed under CC-BY-NC-4.0. Feel free to share freely but do not resell my content.
+cd dominos
+npm install
+npm run dev
 
-The code, including the code of the site itself and the code in the exercises, are licensed under Apache 2.0.
+Using the App 1. Start both the backend and frontend servers 2. Open the frontend URL in your browser 3. Browse pizzas, add items to your cart, and place orders 4. Ensure the backend stays running for data to load properly
 
-[fem]: https://frontendmasters.com/courses/complete-react-v9/
-[repo]: https://github.com/btholt/complete-intro-to-react-v9
+⸻
 
-[React icons created by Pixel perfect - Flaticon](https://www.flaticon.com/free-icons/react)
+🧪 Notes
+• The backend must be running for the frontend to function correctly
+• SQLite database (pizza.sqlite) is included for persistence
+• This project is intended for learning and demonstration purposes
 
+⸻
+
+📜 License
+
+This project is for educational use.
+Feel free to explore, modify, and learn from it.
