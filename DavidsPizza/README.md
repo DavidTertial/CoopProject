@@ -1,6 +1,6 @@
 Project Structure
 
-FRONTEND/
+DavidsPizza/
 │
 ├── api/ # Backend (Node + Express)
 │ ├── server.js # API server
@@ -42,7 +42,7 @@ Setup Instructions
 Clone the repository
 
 git clone <your-repo-url>
-cd FRONTEND
+cd DavidsPizza
 
 Run the Backend (API)
 
