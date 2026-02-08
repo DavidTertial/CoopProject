@@ -5,6 +5,16 @@ The app supports turn-based play, win detection, draw detection, move history, a
 
 ---
 
+## 🎥 Demo
+
+Below is a short demo video showcasing the gameplay, including turn-based interaction, win detection, draw detection, and game reset.
+
+https://github.com/DavidTertial/CoopProject/blob/main/TICtac/demo/TicTac%20Demo.mp4
+
+> The demo video is included directly in this repository for easy viewing.
+
+---
+
 ## 📌 Description
 
 This project is a classic Tic-Tac-Toe implementation designed to practice React fundamentals such as state management, component composition, and conditional rendering. The game tracks every move, allows players to jump back in time, and correctly detects wins and draws.
