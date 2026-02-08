@@ -65,6 +65,32 @@ A full-stack web application for uploading, organizing, and tracking CAD files t
 
 ---
 
+### 📸 Photo Gallery App
+An Android application that displays photos and videos from a user’s device in a clean, responsive grid layout, with support for media preview and sharing.
+
+**Key Features**
+- Grid-based display of photos and videos
+- Media preview for images and videos
+- Share media using Android intents
+- Smooth navigation and modern UI design
+
+**What I Did**
+- Built the app using **Kotlin** and Android SDK
+- Accessed device media using Android system APIs
+- Implemented grid-based UI for efficient media browsing
+- Enabled media sharing through inter-app communication
+- Managed permissions and lifecycle-aware components
+
+**Tech Stack**
+- Kotlin
+- Android SDK
+- Android Studio
+- MediaStore API
+- Intent system
+
+📁 Project Folder: `photo-app/`
+
+---
 
 ### ⏰ C Digital Clock App
 A lightweight terminal-based digital clock application written in C that displays the current system time and updates every second.
