@@ -1,163 +1,153 @@
-# CoopProject 🚀
+CoopProject 🚀
 
-A collection of academic and personal software projects demonstrating my skills in **full-stack development**, **system design**, and **problem-solving**.  
-These projects focus on building practical, real-world applications using modern tools and frameworks.
+Software Engineering Portfolio | Full-Stack • Mobile • Systems
 
----
+A curated collection of academic and personal projects showcasing my experience in full-stack development, mobile applications, and systems programming.
+These projects focus on building practical, real-world software using modern tools, clean architecture, and thoughtful problem-solving.
 
-## 🔥 Featured Projects
+🎓 Software Engineering student actively seeking Co-op / Internship opportunities (Summer 2026)
 
-### 🍕 David’s Pizza App
-A full-stack pizza ordering web application designed to deliver a smooth and interactive user experience.
+⸻
 
-**Key Features**
-- Interactive menu with pizza customization
-- Shopping cart and order flow
-- Dynamic **“Pizza of the Day”** feature
-- Responsive UI for desktop and mobile
-- Clean state management for orders and user interaction
+🔥 Featured Projects
 
-**What I Did**
-- Designed and built the frontend using **React (JSX)** and modern JavaScript
-- Implemented reusable components and **custom React hooks**
-- Used **Context API** for global state management
-- Styled the application with **HTML5 and CSS3**
-- Managed version control and project structure using **Git**
+🍕 David’s Pizza App — Full-Stack Web Application
 
-**Tech Stack**
-- React (JSX)
-- JavaScript (ES6+)
-- HTML5, CSS3
-- Custom Hooks, Context API
-- Git
+An interactive pizza ordering platform designed with usability, scalability, and clean state management in mind.
 
-📁 Project Folder: `DavidsPizza/`
+Key Features
+	•	Dynamic menu with pizza customization
+	•	Shopping cart and order flow
+	•	Daily “Pizza of the Day” feature
+	•	Responsive UI for desktop and mobile
+	•	Centralized and predictable state management
 
----
+My Contributions
+	•	Designed and developed the frontend using React (JSX) and modern JavaScript
+	•	Built reusable components and custom React hooks
+	•	Implemented global state management using Context API
+	•	Styled the UI with HTML5 and CSS3
+	•	Managed version control and project structure using Git
 
-### 🧩 CAD File Manager
-A full-stack web application for uploading, organizing, and tracking CAD files through a structured workflow.
+Tech Stack
+React · JavaScript (ES6+) · HTML5 · CSS3 · Custom Hooks · Context API · Git
 
-**Key Features**
-- User registration and authentication
-- CAD file upload and metadata tracking
-- File detail views and organized listings
-- Job tracking for file processing workflows
-- REST API-based backend communication
+📁 DavidsPizza/
 
-**What I Did**
-- Built a **React (Vite)** frontend with pages for uploads, file listings, jobs, and file details
-- Developed a **Node.js / Express** backend to handle file uploads and API requests
-- Implemented user authentication (login/register)
-- Integrated **MongoDB** to store file metadata and job information
-- Used **Axios** for frontend–backend communication
-- Designed the system using a modular, maintainable architecture
+⸻
 
-**Tech Stack**
-- React (Vite)
-- JavaScript (ES6+)
-- Node.js, Express
-- MongoDB
-- Axios
-- Git
+🧩 CAD File Manager — Full-Stack System
 
-📁 Project Folder: `cad-file-manager/`
+A web application for uploading, organizing, and tracking CAD files through a structured workflow, simulating real engineering file-management systems.
 
----
+Key Features
+	•	User authentication (register/login)
+	•	CAD file uploads with metadata tracking
+	•	File detail views and organized listings
+	•	Job tracking for file processing workflows
+	•	REST API–based backend communication
 
-### 📸 Photo Gallery App
-An Android application that displays photos and videos from a user’s device in a clean, responsive grid layout, with support for media preview and sharing.
+My Contributions
+	•	Built a React (Vite) frontend with modular pages
+	•	Developed a Node.js / Express REST API
+	•	Integrated MongoDB for persistent storage
+	•	Implemented authentication and job lifecycle tracking
+	•	Designed the system for scalability and maintainability
+	•	Used Axios for reliable client–server communication
 
-**Key Features**
-- Grid-based display of photos and videos
-- Media preview for images and videos
-- Share media using Android intents
-- Smooth navigation and modern UI design
+Tech Stack
+React (Vite) · JavaScript · Node.js · Express · MongoDB · Axios · Git
 
-**What I Did**
-- Built the app using **Kotlin** and Android SDK
-- Accessed device media using Android system APIs
-- Implemented grid-based UI for efficient media browsing
-- Enabled media sharing through inter-app communication
-- Managed permissions and lifecycle-aware components
+📁 cad-file-manager/
 
-**Tech Stack**
-- Kotlin
-- Android SDK
-- Android Studio
-- MediaStore API
-- Intent system
+⸻
 
-📁 Project Folder: `photo-app/`
+📸 Photo Gallery App — Android (Kotlin)
 
----
+A native Android application for browsing and sharing photos and videos stored on a device.
 
-### ❌⭕️ Tic-Tac-Toe (TICtac)
-A simple and interactive Tic-Tac-Toe game built with React, featuring win detection, draw detection, move history, and a clean, centered UI.
+Key Features
+	•	Grid-based photo and video gallery
+	•	Media preview support
+	•	Media sharing via Android intents
+	•	Smooth navigation and responsive UI
 
-**Key Features**
-- Two-player turn-based gameplay (X and O)
-- Automatic win detection
-- **Draw detection** when the board is full
-- Move history with time-travel (jump to previous moves)
-- Reset button to restart the game
-- Responsive, centered design with hover effects
+My Contributions
+	•	Developed the app using Kotlin and Android SDK
+	•	Accessed device media using MediaStore APIs
+	•	Implemented permission handling and lifecycle-aware components
+	•	Enabled inter-app media sharing using intents
 
-**What I Did**
-- Built the game using **React** and **Vite**
-- Managed game state using React hooks
-- Implemented winner and draw detection logic
-- Added move history and reset functionality
-- Styled the UI for a modern, centered layout
+Tech Stack
+Kotlin · Android SDK · Android Studio · MediaStore API · Intents
 
-**Tech Stack**
-- React
-- JavaScript (ES6+)
-- Vite
-- HTML, CSS
+📁 photo-app/
 
-📁 Project Folder: `TICtac/`
+⸻
 
----
+❌⭕ Tic-Tac-Toe (TICtac) — React Game
 
-### ⏰ C Digital Clock App
-A lightweight terminal-based digital clock application written in C that displays the current system time and updates every second.
+A clean and interactive Tic-Tac-Toe game demonstrating state management and game logic.
 
-**Key Features**
-- Displays real-time system clock in `HH:MM:SS` format
-- Updates automatically every second
-- Runs continuously in the terminal
-- Simple, efficient, and portable C implementation
+Key Features
+	•	Turn-based two-player gameplay
+	•	Win and draw detection
+	•	Move history with time-travel functionality
+	•	Reset and replay support
+	•	Responsive, centered UI
 
-**What I Did**
-- Implemented a real-time clock using standard C libraries
-- Retrieved system time using `time()` and `localtime()`
-- Used `sleep()` to update the display every second
-- Ensured clean terminal output with formatted printing
+My Contributions
+	•	Built using React and Vite
+	•	Managed game state with React hooks
+	•	Implemented winner/draw logic
+	•	Styled a clean and modern UI
 
-**Tech Stack**
-- C
-- Standard C libraries (`stdio.h`, `time.h`, `unistd.h`)
+Tech Stack
+React · JavaScript · Vite · HTML · CSS
 
-📁 Project Folder: `clock-app/`
+📁 TICtac/
 
----
+⸻
 
-## 🛠️ Skills Demonstrated
-- Full-stack web development
-- REST API design
-- Authentication & authorization
-- File handling and data management
-- Modular system architecture
-- Frontend state management
-- Git-based version control
+⏰ Digital Clock — C (Systems Programming)
 
----
+A lightweight terminal-based digital clock written in C.
 
-## 📌 About Me
-I’m a **Software Engineering student** with a strong interest in building practical applications that combine clean design with solid backend logic. I enjoy learning new technologies, solving real problems, and improving systems through thoughtful architecture.
+Key Features
+	•	Real-time HH:MM:SS display
+	•	Automatic one-second updates
+	•	Minimal and portable implementation
 
----
+My Contributions
+	•	Used standard C libraries for time handling
+	•	Implemented continuous execution with controlled delays
+	•	Ensured clean and formatted terminal output
 
-## 📫 Contact
-- **GitHub:** https://github.com/DavidTertial
+Tech Stack
+C · stdio.h · time.h · unistd.h
+
+📁 clock-app/
+
+⸻
+
+🛠 Skills Demonstrated
+	•	Full-stack web development
+	•	REST API design and integration
+	•	Authentication and data persistence
+	•	Frontend state management
+	•	Mobile app development (Android)
+	•	Systems programming fundamentals
+	•	Git-based version control
+	•	Modular and maintainable architecture
+
+⸻
+
+👋 About Me
+
+I’m a Software Engineering student who enjoys building systems end-to-end — from user interfaces and APIs to databases and low-level programs. I’m curious, adaptable, and motivated by understanding how software works under the hood while delivering clean, reliable solutions.
+
+⸻
+
+📫 Contact
+	•	GitHub: https://github.com/DavidTertial
+	•	LinkedIn: https://www.linkedin.com/in/chidubem-ajaero-2029a8244/
