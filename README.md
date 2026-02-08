@@ -65,6 +65,30 @@ A full-stack web application for uploading, organizing, and tracking CAD files t
 
 ---
 
+
+### ⏰ C Digital Clock App
+A lightweight terminal-based digital clock application written in C that displays the current system time and updates every second.
+
+**Key Features**
+- Displays real-time system clock in `HH:MM:SS` format
+- Updates automatically every second
+- Runs continuously in the terminal
+- Simple, efficient, and portable C implementation
+
+**What I Did**
+- Implemented a real-time clock using standard C libraries
+- Retrieved system time using `time()` and `localtime()`
+- Used `sleep()` to update the display every second
+- Ensured clean terminal output with formatted printing
+
+**Tech Stack**
+- C
+- Standard C libraries (`stdio.h`, `time.h`, `unistd.h`)
+
+📁 Project Folder: `clock-app/`
+
+---
+
 ## 🛠️ Skills Demonstrated
 - Full-stack web development
 - REST API design
