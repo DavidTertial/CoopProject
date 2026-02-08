@@ -1,3 +1,20 @@
+# David’s Pizza 🍕
+
+A full-stack pizza ordering web application designed to deliver a smooth and interactive user experience, with a modern React frontend and a RESTful Node.js backend.
+
+---
+
+## 🎥 Demo
+
+A short demo video showcasing the core functionality of the application (browsing pizzas, adding to cart, and placing orders) is included in this repository.
+
+> The demo video is tracked using **Git Large File Storage (Git LFS)** to efficiently manage media assets without bloating the repository size.
+
+📁 Demo location: `demo/`  
+🎬 File format: `.mp4` (managed via Git LFS)
+
+---
+
 Project Structure
 
 DavidsPizza/
