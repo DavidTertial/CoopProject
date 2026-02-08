@@ -22,7 +22,7 @@ This program uses standard C libraries to fetch the current system time and cont
 
 ## 📂 Files
 
-- `clock.c` – Main C source file containing the clock logic
+- `main.c` – Main C source file containing the clock logic
 
 ---
 
@@ -37,10 +37,13 @@ This program uses standard C libraries to fetch the current system time and cont
 ## ▶️ How to Compile and Run
 
 ### Compile
-gcc clock.c -o clock
+
+gcc main.c -o clock
 
 ### Run
+
 ./clock
 
 ### Stop the clock
+
 Ctrl + C
