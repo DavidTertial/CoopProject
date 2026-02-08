@@ -1,0 +1,28 @@
+<svg width="750" height="300" viewBox="0 0 750 300" xmlns="http://www.w3.org/2000/svg" fill="#E63946">
+  <!-- Chef Illustration -->
+  <g transform="translate(30,60) scale(1.8)" stroke="#E63946" stroke-width="2" fill="none">
+    <!-- Hat (lowered closer to head) -->
+    <path d="M30 10 q-5 -20 15 -30 q20 -10 30 5 q10 -15 25 -5 q15 10 10 25 q10 5 8 15 q-3 10 -18 10" />
+    <!-- Head -->
+    <circle cx="60" cy="60" r="25" />
+    <!-- Eyes -->
+    <circle cx="53" cy="55" r="2" fill="#E63946"/>
+    <circle cx="67" cy="55" r="2" fill="#E63946"/>
+    <!-- Mustache -->
+    <path d="M45 70 q-6 6 -12 0" />
+    <path d="M75 70 q6 6 12 0" />
+    <!-- Smile -->
+    <path d="M53 78 q7 7 14 0" />
+    <!-- OK Hand -->
+    <path d="M10 55 q-3 15 8 25 q8 5 15 -2 q6 -6 0 -15 q-4 -4 -8 0 q-4 4 0 8" />
+    <!-- Body -->
+    <path d="M30 90 q8 25 8 40 q0 15 -8 20 q20 4 50 0 q-7 -5 -7 -20 q0 -15 7 -35" />
+    <!-- Buttons -->
+    <circle cx="45" cy="110" r="2" fill="#E63946"/>
+    <circle cx="45" cy="120" r="2" fill="#E63946"/>
+    <circle cx="45" cy="130" r="2" fill="#E63946"/>
+  </g>
+
+  <!-- Text Lowered to Align with Chef Face -->
+  <text x="300" y="185" font-family="Pacifico, cursive" font-size="60" fill="#E63946">David's Pizza</text>
+</svg>
