@@ -92,6 +92,34 @@ An Android application that displays photos and videos from a user’s device in
 
 ---
 
+### ❌⭕️ Tic-Tac-Toe (TICtac)
+A simple and interactive Tic-Tac-Toe game built with React, featuring win detection, draw detection, move history, and a clean, centered UI.
+
+**Key Features**
+- Two-player turn-based gameplay (X and O)
+- Automatic win detection
+- **Draw detection** when the board is full
+- Move history with time-travel (jump to previous moves)
+- Reset button to restart the game
+- Responsive, centered design with hover effects
+
+**What I Did**
+- Built the game using **React** and **Vite**
+- Managed game state using React hooks
+- Implemented winner and draw detection logic
+- Added move history and reset functionality
+- Styled the UI for a modern, centered layout
+
+**Tech Stack**
+- React
+- JavaScript (ES6+)
+- Vite
+- HTML, CSS
+
+📁 Project Folder: `TICtac/`
+
+---
+
 ### ⏰ C Digital Clock App
 A lightweight terminal-based digital clock application written in C that displays the current system time and updates every second.
 
