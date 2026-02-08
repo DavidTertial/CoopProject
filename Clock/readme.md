@@ -4,6 +4,15 @@ A simple terminal-based digital clock written in C that displays the current sys
 
 ---
 
+## 🎥 Demo
+
+Below is a short demo video showing the clock running in real time and updating every second in the terminal.
+
+📁 Demo location: demo/
+🎬 File format: .mp4 (managed via Git LFS)
+
+---
+
 ## 📌 Description
 
 This program uses standard C libraries to fetch the current system time and continuously display it in `HH:MM:SS` format. The clock refreshes every second in the same terminal line, simulating a real-time digital clock.
