@@ -11,6 +11,34 @@ These projects focus on building practical, real-world software using modern too
 
 🔥 Featured Projects
 
+🏥 IoT Healthcare Monitoring System — Group Project (Python, Modular Monolith)
+
+A team-built IoT healthcare monitoring system that collects vital sign data from simulated sensors, detects abnormal readings in real time, and alerts medical staff. Developed for SWE4403/CS4015 (Software Architecture & Design Patterns) at UNB as a low-cost, customizable alternative to existing patient-monitoring solutions.
+
+Key Features
+	•	Continuous ingestion of vital sign data from simulated IoT sensors
+	•	Real-time abnormal-reading detection with automated alerting
+	•	Modular Monolith architecture using Observer and Singleton design patterns
+	•	Persistent storage of readings and alerts in MariaDB
+	•	Comprehensive unit, integration, and end-to-end test suites with coverage reporting
+	•	Containerized deployment via Docker and Docker Compose
+	•	CI pipeline running tests automatically through GitHub Actions
+
+My Contributions
+	•	Implemented the database layer, including schema design and the connection module that backs all sensor and alert persistence
+	•	Designed and built the Observer pattern that drives real-time alerting when abnormal vital signs are detected
+	•	Wrote the majority of the project’s test suite across unit, integration, and end-to-end levels, raising coverage and catching regressions early
+	•	Built the CI pipeline in GitHub Actions to automatically run tests and coverage checks on every push and pull request
+	•	Authored the ARC42 architecture documentation, Architecture Decision Records (ADR-001 to ADR-006), and the C4 Level 1–3, sequence, and deployment diagrams as Documentation Lead
+	•	Maintained meeting notes, milestone deliverables, and the team retrospective package
+
+Tech Stack
+Python 3.11 · MariaDB · Docker · Docker Compose · pytest · pytest-cov · GitHub Actions · arc42 · C4 Model
+
+📁 IOT Healthcare System/
+
+⸻
+
 🍕 David’s Pizza App — Full-Stack Web Application
 
 An interactive pizza ordering platform designed with usability, scalability, and clean state management in mind.
@@ -139,6 +167,9 @@ C · stdio.h · time.h · unistd.h
 	•	Systems programming fundamentals
 	•	Git-based version control
 	•	Modular and maintainable architecture
+	•	Software architecture documentation (ARC42, ADRs, C4 model)
+	•	Containerization with Docker and CI/CD with GitHub Actions
+	•	Team collaboration on milestone-driven engineering projects
 
 ⸻
 
