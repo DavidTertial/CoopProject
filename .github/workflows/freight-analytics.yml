@@ -1,0 +1,28 @@
+name: freight-analytics
+
+on:
+  push:
+    paths: ["freight-analytics/**", ".github/workflows/freight-analytics.yml"]
+  pull_request:
+    paths: ["freight-analytics/**"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: freight-analytics
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: freight-analytics/requirements.txt
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q
+      - name: End-to-end pipeline smoke run
+        run: |
+          python data/generate_data.py
+          python run_pipeline.py
+          python sql/run_queries.py 1 2

@@ -1,0 +1,9 @@
+# Generated artifacts — rebuild with: python data/generate_data.py && python run_pipeline.py
+data/raw/
+data/*.db
+data/*.db-journal
+models/*.joblib
+models/model_metrics.json
+__pycache__/
+.pytest_cache/
+.DS_Store
